@@ -1,0 +1,15 @@
+<ion-view view-title="Flickr Gallery">
+  <ion-content>
+
+    <div class="row" style="flex-wrap: wrap;">
+      <div class="col col-33 full-width-images" ng-repeat="image in images">
+        <div class="flickr-item full-width-images">
+          <img ng-src="{{image.media.m}}" alt="">
+          <div class="flickr-item-overlay"></div>
+          <h4 class="flickr-item-title">{{image.title}}</h4>
+        </div>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>

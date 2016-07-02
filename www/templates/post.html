@@ -1,0 +1,21 @@
+<ion-view>
+  <ion-nav-bar class="bar-assertive">
+    <ion-nav-back-button></ion-nav-back-button>
+    <<ion-nav-buttons side="left">
+      <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+      </button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-header-bar class="bar-assertive">
+    <div class="title"><center>{{post_title}}</center></div>
+  </ion-header-bar>
+
+	<ion-content>
+    <div class="padding">
+      <p ng-bind-html="post_content"></p>
+    </div>
+
+
+  </ion-content>
+</ion-view>
